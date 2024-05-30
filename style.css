@@ -1,0 +1,57 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.header h1{
+    font-family:monospace;
+    color: rgb(255, 208, 0);
+    margin: 0;
+    font-size: 46px;
+}
+.header{
+    height: 100px;
+    background-color: #18202b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #232c38;
+}
+.game-text{
+    text-align: center;
+    color: white;
+    font-family:monospace;
+}
+.game-text h1{
+    font-size: 46px;
+}
+.game-text h2{
+    font-size: 32px;
+}
+.footer{
+    height: 100px;
+    display: flex;
+    background-color: #18202b;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.footer p{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#github-logo{
+    height: 20px;
+    margin: 0 5px;
+}
