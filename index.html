@@ -18,11 +18,29 @@
             </div>
             <div class="game-signs">
                 <div class="player-side">
-
+                    <p>Player</p>
+                    <p id="player-sign">❔</p>
+                    <p id="player-score">Score : </p>
                 </div>
                 <h2>VS</h2>
                 <div class="computer-side">
-
+                    <p>Computer</p>
+                    <p id="computer-sign">❔</p>
+                    <p id="computer-score">Score : </p>
+                </div>
+            </div>
+            <div class="choices">
+                <div class="choice-container">
+                    <button id="btn-rock" onclick="playerChoice(this)">✊</button>
+                    <h2>Rock</h2>
+                </div>
+                <div class="choice-container">
+                    <button id="btn-paper" onclick="playerChoice(this)">✋</button>
+                    <h2>Paper</h2>
+                </div>
+                <div class="choice-container">
+                    <button id="btn-scissor" onclick="playerChoice(this)">✌</button>
+                    <h2>Scissor</h2>
                 </div>
             </div>
             

@@ -36,6 +36,55 @@ body{
 .game-text h2{
     font-size: 32px;
 }
+.game-signs h2{
+    font-size: 66px;
+    font-family: monospace;
+    color: white;
+}
+.game-signs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9rem;
+}
+.player-side, .computer-side{
+    font-family: monospace;
+    font-size: 36px;
+    text-align: center;
+}
+.player-side{
+    color: greenyellow;
+}
+.computer-side{
+    color: rgb(231, 27, 0);
+}
+#player-sign, #computer-sign{
+    font-size: 72px;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.choice-container{
+    text-align: center;
+    color: white;
+    font-family: monospace;
+}
+.choice-container button{
+    border: none;
+    padding: 32px;
+    font-size: 66px;
+    background-color: #18202b;
+    border-radius: 10px;
+}
+#btn-rock:hover, #btn-paper:hover, #btn-scissor:hover{
+    border: 1px solid white;
+    padding: 21px;
+    font-size: 80px;
+}
+
 .footer{
     height: 100px;
     display: flex;
