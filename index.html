@@ -4,29 +4,29 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
         <script src="script.js"></script>
-        <Title>Rock Paper Scissor Game</Title>
+        <Title>Rock Paper Scissors Game</Title>
     </head>
     <body>
         <div class="header">
-            <h1>Rock Paper Scissor Game</h1>
+            <h1>Rock Paper Scissors Game</h1>
         </div>
         
         <div class="game">
             <div class="game-text">
-                <h1>Choose your weapon</h1>
+                <h1 id="round-counter">Choose your weapon</h1>
                 <h2>First to score 5 points wins the game!</h2>
             </div>
             <div class="game-signs">
                 <div class="player-side">
                     <p>Player</p>
                     <p id="player-sign">❔</p>
-                    <p id="player-score">Score : </p>
+                    <p id="player-score">Score : 0</p>
                 </div>
                 <h2>VS</h2>
                 <div class="computer-side">
                     <p>Computer</p>
                     <p id="computer-sign">❔</p>
-                    <p id="computer-score">Score : </p>
+                    <p id="computer-score">Score : 0</p>
                 </div>
             </div>
             <div class="choices">
@@ -40,7 +40,7 @@
                 </div>
                 <div class="choice-container">
                     <button id="btn-scissor" onclick="playerChoice(this)">✌</button>
-                    <h2>Scissor</h2>
+                    <h2>Scissors</h2>
                 </div>
             </div>
             

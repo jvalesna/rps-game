@@ -17,6 +17,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 9px;
 }
 
 .game{
@@ -24,6 +25,7 @@ body{
     flex: 1;
     flex-direction: column;
     background-color: #232c38;
+    padding-bottom: 50px;
 }
 .game-text{
     text-align: center;
@@ -86,7 +88,7 @@ body{
 }
 
 .footer{
-    height: 100px;
+    height: 45px;
     display: flex;
     background-color: #18202b;
     justify-content: center;
